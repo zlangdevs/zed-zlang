@@ -8,4 +8,4 @@ repository = "https://github.com/hedgegod/zed-zlang"
 
 [grammars.zlang]
 repository = "file:///home/hedgegod/zig/zed-zlang"
-commit = "HEAD"
+commit = "ad605a563b93b78d7100d3495673eba88a4310ab"
