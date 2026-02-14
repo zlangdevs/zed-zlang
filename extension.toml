@@ -4,8 +4,8 @@ version = "0.1.0"
 schema_version = 1
 authors = ["hedgegod"]
 description = "Zlang syntax highlighting for Zed"
-repository = "https://github.com/hedgegod/zed-zlang"
+repository = "https://github.com/zlangdevs/zed-zlang"
 
 [grammars.zlang]
-repository = "file:///home/hedgegod/zig/zed-zlang"
-commit = "012302489ff21dd21c1d9ff43f61db92869cb71e"
+repository = "https://github.com/zlangdevs/zed-zlang"
+commit = "cc587a8d36f1a2f82318383819a7b9f7b92beb54"
