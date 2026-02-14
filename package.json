@@ -1,0 +1,14 @@
+{
+  "name": "tree-sitter-zlang",
+  "version": "0.1.0",
+  "description": "Tree-sitter grammar for Zlang",
+  "license": "MIT",
+  "main": "grammar.js",
+  "devDependencies": {
+    "tree-sitter-cli": "^0.24.7"
+  },
+  "scripts": {
+    "generate": "tree-sitter generate",
+    "test": "tree-sitter test"
+  }
+}

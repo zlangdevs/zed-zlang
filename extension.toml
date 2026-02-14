@@ -1,0 +1,11 @@
+id = "zlang"
+name = "Zlang"
+version = "0.1.0"
+schema_version = 1
+authors = ["hedgegod"]
+description = "Zlang syntax highlighting for Zed"
+repository = "https://github.com/hedgegod/zed-zlang"
+
+[grammars.zlang]
+repository = "file:///home/hedgegod/zig/zed-zlang"
+commit = "HEAD"
