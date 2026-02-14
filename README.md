@@ -28,7 +28,7 @@ In `extension.toml` grammar source is configured as local filesystem path:
 ```toml
 [grammars.zlang]
 repository = "file:///home/hedgegod/zig/zed-zlang"
-commit = "HEAD"
+commit = "<local_commit_sha>"
 ```
 
 If your clone path is different, update `repository` to your absolute path.
