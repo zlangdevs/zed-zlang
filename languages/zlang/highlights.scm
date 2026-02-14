@@ -21,10 +21,10 @@
 
 [
   "ptr"
-  "null"
-  "true"
-  "false"
 ] @constant.builtin
+
+(null) @constant.builtin
+(boolean) @boolean
 
 (type_identifier) @type
 
@@ -48,7 +48,6 @@
 
 (string) @string
 (char) @string
-(boolean) @boolean
 
 [
   "="
