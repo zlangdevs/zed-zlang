@@ -21,23 +21,17 @@ git clone <YOUR_REPO_URL> zed-zlang
 3. Run command: `zed: install dev extension`
 4. Select the `zed-zlang` folder.
 
-## Important for local grammar path
+## Local development note
 
-In `extension.toml` grammar source is configured as local filesystem path:
+For local dev extension installs, keep grammar source pointing to this GitHub repo and pin to a commit SHA:
 
 ```toml
 [grammars.zlang]
-repository = "file:///home/hedgegod/zig/zed-zlang"
-commit = "<local_commit_sha>"
+repository = "https://github.com/zlangdevs/zed-zlang"
+commit = "<commit_sha>"
 ```
 
-If your clone path is different, update `repository` to your absolute path.
-
-Example:
-
-```toml
-repository = "file:///Users/alice/dev/zed-zlang"
-```
+Use any commit from this repository.
 
 ## Publishing-ready setup
 
@@ -45,7 +39,7 @@ After pushing this repo to GitHub, switch grammar source to Git URL + commit SHA
 
 ```toml
 [grammars.zlang]
-repository = "https://github.com/<you>/zed-zlang"
+repository = "https://github.com/zlangdevs/zed-zlang"
 commit = "<commit_sha>"
 ```
 
