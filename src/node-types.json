@@ -2343,15 +2343,15 @@
     "named": false
   },
   {
+    "type": "block_comment",
+    "named": true
+  },
+  {
     "type": "break",
     "named": false
   },
   {
     "type": "char",
-    "named": true
-  },
-  {
-    "type": "comment",
     "named": true
   },
   {
@@ -2397,6 +2397,10 @@
   {
     "type": "if",
     "named": false
+  },
+  {
+    "type": "line_comment",
+    "named": true
   },
   {
     "type": "match",

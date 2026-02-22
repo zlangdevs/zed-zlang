@@ -3,7 +3,8 @@ module.exports = grammar({
 
   extras: ($) => [
     /\s/,
-    $.comment,
+    $.line_comment,
+    $.block_comment,
   ],
 
   word: ($) => $.identifier,
@@ -325,9 +326,7 @@ module.exports = grammar({
     string: () => token(seq('"', repeat(choice(/[^"\\\n]/, /\\./)), '"')),
     char: () => token(seq("'", choice(/[^'\\\n]/, /\\./), "'")),
 
-    comment: () => token(choice(
-      seq("??", /[^\n]*/),
-      seq("...", /[\s\S]*?/, "..."),
-    )),
+    line_comment: () => token(seq("??", /[^\n]*/)),
+    block_comment: () => token(seq("...", /([^.]|\.[^.]|\.\.[^.])*/, "...")),
   },
 });
