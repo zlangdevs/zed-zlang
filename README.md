@@ -28,7 +28,7 @@ For local dev extension installs, keep grammar source pointing to this GitHub re
 ```toml
 [grammars.zlang]
 repository = "https://github.com/zlangdevs/zed-zlang"
-commit = "<commit_sha>"
+rev = "<commit_sha>"
 ```
 
 Use any commit from this repository.
@@ -40,7 +40,7 @@ After pushing this repo to GitHub, switch grammar source to Git URL + commit SHA
 ```toml
 [grammars.zlang]
 repository = "https://github.com/zlangdevs/zed-zlang"
-commit = "<commit_sha>"
+rev = "<commit_sha>"
 ```
 
 ## Quick check
