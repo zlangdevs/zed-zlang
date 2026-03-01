@@ -14,7 +14,7 @@ Zed extension with syntax highlighting for `zlang` (`.zl`).
 1. Clone repo:
 
 ```bash
-git clone <YOUR_REPO_URL> zed-zlang
+git clone https://github.com/zlangdevs/zed-zlang
 ```
 
 2. Open Zed.
