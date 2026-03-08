@@ -1,6 +1,6 @@
 id = "zlang"
 name = "Zlang"
-version = "0.1.1"
+version = "0.1.2"
 schema_version = 1
 authors = ["zlangdevs"]
 description = "Zlang syntax highlighting for Zed"
@@ -8,4 +8,4 @@ repository = "https://github.com/zlangdevs/zed-zlang"
 
 [grammars.zlang]
 repository = "https://github.com/zlangdevs/zed-zlang"
-rev = "000082a0332ce84899d76cf054180fddac992c07"
+rev = "7dc4cbf7f24f6c741e53b05ed48e41d712679751"
