@@ -8,4 +8,4 @@ repository = "https://github.com/zlangdevs/zed-zlang"
 
 [grammars.zlang]
 repository = "https://github.com/zlangdevs/zed-zlang"
-rev = "47d7c7f0d41ec262ca8d66a61412d3076e62850f"
+rev = "000082a0332ce84899d76cf054180fddac992c07"
