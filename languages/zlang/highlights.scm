@@ -29,7 +29,7 @@
   "ptr"
 ] @constant.builtin
 
-(null) @constant.builtin
+"null" @constant.builtin
 (boolean) @boolean
 
 (type_identifier) @type
