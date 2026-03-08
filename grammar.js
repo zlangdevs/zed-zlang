@@ -323,7 +323,20 @@ module.exports = grammar({
       /\d+\.\d+([eE][+-]?\d+)?/,
       /\.\d+([eE][+-]?\d+)?/,
     )),
-    string: () => token(seq('"', repeat(choice(/[^"\\\n]/, /\\./)), '"')),
+    string: ($) => seq(
+      '"',
+      repeat(choice(
+        $.string_dollar,
+        $.string_content,
+        $.escape_sequence,
+        $.interpolation,
+      )),
+      '"',
+    ),
+    interpolation: ($) => seq("${", $._expression, "}"),
+    string_content: () => token(repeat1(/[^"\\\n$]+/)),
+    string_dollar: () => "$",
+    escape_sequence: () => token(seq("\\", /./)),
     char: () => token(seq("'", choice(/[^'\\\n]/, /\\./), "'")),
 
     line_comment: () => token(seq("??", /[^\n]*/)),

@@ -53,6 +53,10 @@
 ] @number
 
 (string) @string
+(string_content) @string
+(escape_sequence) @string.escape
+(interpolation
+  ["${" "}"] @punctuation.special)
 (char) @string
 
 [

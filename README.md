@@ -8,6 +8,7 @@ Zed extension with syntax highlighting for `zlang` (`.zl`).
 - Tree-sitter grammar (`grammar.js`)
 - Highlight queries (`languages/zlang/highlights.scm`)
 - Bracket matching and indent queries
+- String interpolation highlighting for `${...}` (escape with `\${}`)
 
 ## Install (local dev extension)
 
