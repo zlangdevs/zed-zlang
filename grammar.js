@@ -326,10 +326,10 @@ module.exports = grammar({
     string: ($) => seq(
       '"',
       repeat(choice(
+        $.interpolation,
         $.string_dollar,
         $.string_content,
         $.escape_sequence,
-        $.interpolation,
       )),
       '"',
     ),

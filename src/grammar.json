@@ -2115,6 +2115,10 @@
             "members": [
               {
                 "type": "SYMBOL",
+                "name": "interpolation"
+              },
+              {
+                "type": "SYMBOL",
                 "name": "string_dollar"
               },
               {
@@ -2124,10 +2128,6 @@
               {
                 "type": "SYMBOL",
                 "name": "escape_sequence"
-              },
-              {
-                "type": "SYMBOL",
-                "name": "interpolation"
               }
             ]
           }

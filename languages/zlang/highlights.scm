@@ -53,6 +53,10 @@
 ] @number
 
 (string) @string
+(string_content) @string
+(string_dollar) @string
+(escape_sequence) @string.escape
+(interpolation ["${" "}"] @operator)
 (char) @string
 
 [
